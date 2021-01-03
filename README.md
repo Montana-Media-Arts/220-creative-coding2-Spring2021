@@ -1,12 +1,12 @@
 # MART 220 - Creative Coding 2 | Content Website
 
-This is the web-based version of Creative Coding 2 (MART 220) at the School of Media Arts, University of Montana.
+This is the web-based version of Creative Coding 2 (MART 220) at the School of Visual and Media Arts, University of Montana.
 
 This course focuses on media integration, interactivity, and foundation coding.
 
 
 
-- [Creative Coding Website](https://montana-media-arts.github.io/220-creative-coding2-Spring2020-course/modules/week-11/overview)
+- [Creative Coding Website](https://montana-media-arts.github.io/220-creative-coding2-Spring2021-course/modules/week-1/overview)
 
 
 ### Updated By:
@@ -18,4 +18,4 @@ This course focuses on media integration, interactivity, and foundation coding.
 
 ### Updated
 
-This course was last updated: 2020-3-13
+This course was last updated: 2021-1-03
