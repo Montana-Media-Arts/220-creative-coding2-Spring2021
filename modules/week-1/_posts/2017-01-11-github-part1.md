@@ -1,11 +1,11 @@
 ---
-title: GitHub Part 1
+title: Issues and GitHub
 module: 1
 ---
 
 <!-- Consider moving to week 2. Instead, replace with Moodle forum info. -->
 
-# Issues Forum and Notifications from GitHub.com
+## Issues Forum and Notifications from GitHub.com
 
 This class is heavily utilizing [GitHub.com](https://github.com). Not only is this service where you will host your git repo's and live websites, but this content site lives in GitHub and there is a "resources" repo for this site that contains;
 
