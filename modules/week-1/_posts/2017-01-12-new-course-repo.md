@@ -16,17 +16,15 @@ First, we will create a new repo directly on GitHub.com. We will then turn it on
 2. If you are not signed in, sign in to your GitHub account
 3. Find the green "New repository" button and press it.
 ![new repo button on guthub.com](../imgs/Screen5.png)
-4. Give your repository a great name, like "_441_".
-    - Optionally, give this repo a description, like "_Homework repo for UMontana Media Arts, Web Tech (MART441) course._".
+4. Give your repository a great name, like "MART220".
+    - Optionally, give this repo a description, like "_Homework repo for UMontana Media Arts, Creative Coding 2 (MART220) course._".
 5. Keep this as a "Public" repo.
 6. Select the "Initialize this repository with a README" box.
 7. Finally press the "Create Repository" button.
 
 ![Create repo window](../imgs/Screen6.png)
 
-
 <br />
-
 
 Your browser will now show you the brand new repository!
 
