@@ -8,7 +8,7 @@ jotted: false
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
     <button class="tablinks" onclick="openTab(event, 'Clone')">Clone Site</button>
     <button class="tablinks" onclick="openTab(event, 'TextEditor')">Text Editor</button>
-    <button class="tablinks" onclick="openTab(event, 'Verify')">Verify</button>  
+   
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block" markdown="1">
@@ -74,13 +74,4 @@ Your browser will now show you the brand new repository!
 Finally, you should open the new local copy of the repo directory in your text editor. If you are using GitHub Desktop.app, you can select the "Open in Atom" or "Open in Visual Studio Code" option from the "Repository" dropdown menu (depending on the text editor you have installed and setup with GitHub Desktop.app)
 
 ![Open in Atom option](../imgs/Screen12.png)
-</div>
-
-<div id="Verify" class="tabcontent" markdown="1">
-
-**Verify Sync on GitHub.com**
-
-1. In your browser, navigate back to your repository on github.com.
-2. You should now see the updated README.md being displayed.
-
 </div>
