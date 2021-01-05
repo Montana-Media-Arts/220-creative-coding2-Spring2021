@@ -6,7 +6,6 @@ jotted: false
 
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-    <button class="tablinks" onclick="openTab(event, 'Pages')">Create</button>
     <button class="tablinks" onclick="openTab(event, 'Clone')">Clone Site</button>
     <button class="tablinks" onclick="openTab(event, 'TextEditor')">Text Editor</button>
     <button class="tablinks" onclick="openTab(event, 'Verify')">Verify</button>  
