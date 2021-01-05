@@ -29,7 +29,9 @@ jotted: false
 
 <div id="Bio" class="tabcontent" markdown="1">
 <p>Michael Cassens is a teacher, a computer scientist, a creative technologist, a gamer, a game developer, and a mobile application developer.  His current practice and research revolve on how to become a better instructor, how to use gaming practices and theories to deliver better course content and build better and more interesting games for the market place using different games engines and mobile platforms.</p>
-<p>Some of his favorite games are:
+
+Some of his favorite games are:
+
   * Mario Bros
   * Clash of Clans
   * Life is Strange
@@ -43,7 +45,7 @@ jotted: false
   * PubG
   * Don't Starve
   * Terraria, and more.
-</p>
+
 <p>Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his research, Michael is teaching courses within the Game Design and Interactive Media concentration. These courses focus on preparing students to contribute to the gaming, technical and artistic industries.  Below is a video of some of our students' work.</p>
 <p><a href="//www.youtube.com/embed/AnjxNmQlLns" data-lity>Game Design and Interactive Media Video</a></p>
 <p>He is also the Director of UM Esports, where we focus on diversity and inclusion in all that we do.  We compete in eight different games, including League of Legends, Overwatch, Pokemon Go, Tetris, Apex Legends, Super Smash Bros, Rocket League, and Starcraft 2. If you are interested in learning more, please feel free to visit our website at <a href="http://grizzlyesportsum.com/" target="_new">UM Esports</a> or contact me. Here is a video about out team.</p>
