@@ -8,7 +8,7 @@ jotted: false
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-  <button class="tablinks" onclick="openTab(event, 'What')">Why</button>
+  <button class="tablinks" onclick="openTab(event, 'What')">What</button>
   <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
   <button class="tablinks" onclick="openTab(event, 'Why')">Why</button>
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
@@ -16,13 +16,12 @@ jotted: false
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block"  markdown="1">
-In MART 120, we talked about the variables, but I always think it's good to revisit and make sure we feel comfortable before moving on.\
+In MART 120, we talked about the variables, but I always think it's good to revisit and make sure we feel comfortable before moving on.
 
 <a href="https://montana-media-arts.github.io/120_CreativeCoding1-Fall2020/modules/week-10/variables/" target="_new">MART 120 Variables</a>
 
 </div>
 <div id="What" class="tabcontent" markdown="1">
-<div class="tabhtml" markdown="1">
 
     What is a variable?
 
@@ -33,7 +32,6 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     What does that mean to us in programming?
 
     <a href="//youtu.be/tHYis-DP0oU" data-lity>Video on Variables</a>
-</div>
 </div>
 <div id="Example" class="tabcontent" markdown="1">
 <div class="tabhtml" markdown="1">
