@@ -11,8 +11,8 @@ jotted: false
   
 </div>
 
-<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
-<div class="tabhtml">
+<div id="Overview" class="tabcontent" style="display:block"  >
+<div class="tabhtml" markdown="1">
 So, how do we work with variables?
 
 ```js
