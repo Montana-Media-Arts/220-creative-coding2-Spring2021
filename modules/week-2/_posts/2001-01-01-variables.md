@@ -22,7 +22,7 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 
 </div>
 <div id="What" class="tabcontent" markdown="1">
-<div class="tabhtml" markdown="1">
+<div class="tabhtml">
     
     What is a variable?
 
@@ -64,6 +64,6 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     <img src="../imgs/Reuse.png" alt="reuse">
 
     <img src="../imgs/Maintenance.png" alt="maintenance">
-    
+
 </div>
 </div>
