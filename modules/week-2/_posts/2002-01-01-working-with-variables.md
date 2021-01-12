@@ -13,7 +13,7 @@ jotted: false
 
 <div id="Overview" class="tabcontent" style="display:block"  markdown="1">
 <div class="tabhtml">
-So, how do we work with variables?  One of the ways we can do this by using the setup and draw to help update a variable.
+So, how do we work with variables?
 
 ```js
     var counter = 0;
@@ -29,10 +29,56 @@ So, how do we work with variables?  One of the ways we can do this by using the 
         background(0);
         fill(counter,200,29);
         circle(x,y,diameter);
-        counter++;
+   
     }
 
 ```
+
+If we change the variable **counter** then it will give us a different shade of red.
+
+
+```js
+    var counter = 150;
+    var x = 100;
+    var y = 100;
+    var diameter = 25;
+    function setup()
+    {
+        createCanvas(800,600);
+    }
+    function draw()
+    {
+        background(0);
+        fill(counter,200,29);
+        circle(x,y,diameter);
+   
+    }
+
+```
+
+However, we can also use the draw method to change the counter variable for us by incrementing it.  
+```js
+    var counter = 0;
+    var x = 100;
+    var y = 100;
+    var diameter = 25;
+    function setup()
+    {
+        createCanvas(800,600);
+    }
+    function draw()
+    {
+        background(0);
+        fill(counter,200,29);
+        circle(x,y,diameter);
+        counter++;
+   
+    }
+
+```
+
+What happens?  Go to the next tab and try it out!
+
 </div>
 </div>
 <div id="ToDo" class="tabcontent" markdown="1">
