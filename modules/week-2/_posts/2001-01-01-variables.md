@@ -20,6 +20,8 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 
 </div>
 <div id="What" class="tabcontent" markdown="1">
+<div class="tabhtml" markdown="1">
+
     What is a variable?
 
     The dictionary defines a variable like this
@@ -29,7 +31,7 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     What does that mean to us in programming?
 
     <a href="//youtu.be/tHYis-DP0oU" data-lity>Video on Variables</a>
-
+</div>
 </div>
 <div id="Example" class="tabcontent" markdown="1">
 <div class="tabhtml" markdown="1">
