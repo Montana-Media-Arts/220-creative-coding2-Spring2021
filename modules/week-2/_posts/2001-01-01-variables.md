@@ -48,6 +48,20 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     ```js
         favoriteFood = 'burrito';
     ```    
+
+    ```js
+        var favoriteFood = "pizza";
+        function setup()
+        {
+            createCanvas(600,800);
+            console.log(favoriteFood);
+        }
+        function draw()
+        {
+            favoriteFood = "burrito";
+            console.log(favoriteFood);
+        }
+    ```
 </div>
 
 </div>
@@ -66,4 +80,11 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     <img src="../imgs/Maintenance.png" alt="maintenance">
 
 </div>
+</div>
+<div id="ToDo" class="tabcontent" markdown="1">
+
+Try the code in the earlier tabs and change the food to your preference.  See the console changes as a result.
+
+<iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
+
 </div>
