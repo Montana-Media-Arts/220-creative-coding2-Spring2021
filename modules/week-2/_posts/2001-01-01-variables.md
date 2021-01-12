@@ -16,7 +16,9 @@ jotted: false
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block"  markdown="1">
-In MART 120, we talked about the variables, but I always think it's good to revisit and make sure we feel comfortable before moving on.
+In MART 120, we talked about the variables, but I always think it's good to revisit and make sure we feel comfortable before moving on.\
+
+<a href="https://montana-media-arts.github.io/120_CreativeCoding1-Fall2020/modules/week-10/variables/" target="_new">MART 120 Variables</a>
 
 </div>
 <div id="What" class="tabcontent" markdown="1">
