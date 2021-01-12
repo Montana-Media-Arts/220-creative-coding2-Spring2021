@@ -22,7 +22,8 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 
 </div>
 <div id="What" class="tabcontent" markdown="1">
-
+<div class="tabhtml" markdown="1">
+    
     What is a variable?
 
     The dictionary defines a variable like this
@@ -32,6 +33,8 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     What does that mean to us in programming?
 
     <a href="//youtu.be/tHYis-DP0oU" data-lity>Video on Variables</a>
+
+</div>
 </div>
 <div id="Example" class="tabcontent" markdown="1">
 <div class="tabhtml" markdown="1">
@@ -50,6 +53,7 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 </div>
 <div id="Why" class="tabcontent" markdown="1">
 <div class="tabhtml" markdown="1">
+
     When we look at the previous example, it might not be obvious why we want to use variables.  So, what is the benefit?  Variables allow us to change their values throughout the program.  The main concepts are:
 
     * reusability
@@ -60,5 +64,6 @@ In MART 120, we talked about the variables, but I always think it's good to revi
     <img src="../imgs/Reuse.png" alt="reuse">
 
     <img src="../imgs/Maintenance.png" alt="maintenance">
+    
 </div>
 </div>
