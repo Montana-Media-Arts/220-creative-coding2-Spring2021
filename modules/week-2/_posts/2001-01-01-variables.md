@@ -1,7 +1,7 @@
 ---
 title: Variables
 module: 2
-jotted: false
+jotted: true
 ---
 
 # Variables
