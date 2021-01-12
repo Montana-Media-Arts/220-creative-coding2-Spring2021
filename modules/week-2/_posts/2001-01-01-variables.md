@@ -47,26 +47,36 @@ What does that mean to us in programming?
 
 <div class="tabhtml" markdown="1">
 
+First, we define the favoriteFood variable.
+
 ```js
     var favoriteFood = 'pizza';
 ```
 
-    Updating food later as our preferences change.
+Then, we can update the favoriateFood variable with a new value.
 
 ```js
     favoriteFood = 'burrito';
 ```   
-     
+
+Here is the full example.
+
 ```js
+    // create the variable
     var favoriteFood = "pizza";
+    // this is the setup function - it's run only once
     function setup()
     {
         createCanvas(600,800);
+        // print the variable to the console
         console.log(favoriteFood);
     }
+    // the draw function is called over and over
     function draw()
     {
+        // change the value of the favoriteFood variable
         favoriteFood = "burrito";
+        // print out the new variable value in the console
         console.log(favoriteFood);
     }
 ```
