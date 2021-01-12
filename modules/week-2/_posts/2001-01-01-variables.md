@@ -24,7 +24,7 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 
     The dictionary defines a variable like this
 
-    `an element, feature, or factor that is liable to vary or change.`
+    **an element, feature, or factor that is liable to vary or change.**
 
     What does that mean to us in programming?
 
