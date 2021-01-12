@@ -21,8 +21,8 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 <a href="https://montana-media-arts.github.io/120_CreativeCoding1-Fall2020/modules/week-10/variables/" target="_new">MART 120 Variables</a>
 
 </div>
-<div id="What" class="tabcontent" markdown="1">
-<div class="tabhtml">
+<div id="What" class="tabcontent" >
+<div class="tabhtml" markdown="1">
     
     What is a variable?
 
@@ -36,7 +36,7 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 
 </div>
 </div>
-<div id="Example" class="tabcontent" markdown="1">
+<div id="Example" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
     ```js
@@ -65,7 +65,7 @@ In MART 120, we talked about the variables, but I always think it's good to revi
 </div>
 
 </div>
-<div id="Why" class="tabcontent" markdown="1">
+<div id="Why" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
     When we look at the previous example, it might not be obvious why we want to use variables.  So, what is the benefit?  Variables allow us to change their values throughout the program.  The main concepts are:

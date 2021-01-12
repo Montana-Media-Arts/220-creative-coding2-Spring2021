@@ -5,7 +5,14 @@ jotted: false
 ---
 
 # Working with Variables
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'What')">To Do</button>
+  
+</div>
 
+<div id="Overview" class="tabcontent" style="display:block"  markdown="1">
+<div class="tabhtml">
 So, how do we work with variables?  One of the ways we can do this by using the setup and draw to help update a variable.
 
 ```js
@@ -26,4 +33,8 @@ So, how do we work with variables?  One of the ways we can do this by using the 
     }
 
 ```
+</div>
+</div>
+<div id="ToDo" class="tabcontent" markdown="1">
 
+</div>
