@@ -103,7 +103,7 @@ We want to reuse as much as we can and lower our maintanance.  We will always ha
 <div id="ToDo" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
-Try the code in the earlier tabs and change the food to your preference.  See the console changes as a result.
+Try the code in the earlier tabs and change the redColor variable. 
 
 <iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 
