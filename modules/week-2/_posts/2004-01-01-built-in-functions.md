@@ -7,8 +7,9 @@ jotted: true
 # Built-in Functions
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-  <button class="tablinks" onclick="openTab(event, 'for')">for</button>
-  <button class="tablinks" onclick="openTab(event, 'while')">while</button>
+  <button class="tablinks" onclick="openTab(event, 'random')">random</button>
+  <button class="tablinks" onclick="openTab(event, 'abs')">abs</button>
+  <button class="tablinks" onclick="openTab(event, 'round')">round</button>
   <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
   
 </div>
@@ -178,4 +179,5 @@ There are just a few built-in functions. There many more and if you are interest
 Try the code in the earlier tabs to see the final result. Feel free to change numbers.
 
 <iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
+</div>
 </div>
