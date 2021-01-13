@@ -101,7 +101,6 @@ We want to reuse as much as we can and lower our maintanance.  We will always ha
 </div>
 
 <div id="ToDo" class="tabcontent">
-
 <div class="tabhtml" markdown="1">
 
 Try the code in the earlier tabs and change the food to your preference.  See the console changes as a result.
