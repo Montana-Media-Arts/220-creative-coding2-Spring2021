@@ -16,7 +16,7 @@ jotted: false
 So, how do we work with variables?
 
 ```js
-    var counter = 0;
+    var redColor = 0;
     var x = 100;
     var y = 100;
     var diameter = 25;
@@ -27,18 +27,18 @@ So, how do we work with variables?
     function draw()
     {
         background(0);
-        fill(counter,200,29);
+        fill(redColor,200,29);
         circle(x,y,diameter);
    
     }
 
 ```
 
-If we change the variable **counter** then it will give us a different shade of red.
+If we change the variable **redColor** then it will give us a different shade of red.
 
 
 ```js
-    var counter = 150;
+    var redColor = 250;
     var x = 100;
     var y = 100;
     var diameter = 25;
@@ -49,16 +49,16 @@ If we change the variable **counter** then it will give us a different shade of 
     function draw()
     {
         background(0);
-        fill(counter,200,29);
+        fill(redColor,100,29);
         circle(x,y,diameter);
    
     }
 
 ```
 
-However, we can also use the draw method to change the counter variable for us by incrementing it.  
+However, we can also use the draw method to change the redColor variable for us by incrementing it.  
 ```js
-    var counter = 0;
+    var redColor = 0;
     var x = 100;
     var y = 100;
     var diameter = 25;
@@ -69,9 +69,9 @@ However, we can also use the draw method to change the counter variable for us b
     function draw()
     {
         background(0);
-        fill(counter,200,29);
+        fill(redColor,100,29);
         circle(x,y,diameter);
-        counter++;
+        redColor++;
    
     }
 
