@@ -6,7 +6,8 @@ jotted: false
 
 # Weekly Conclusions
 
+This week, we talked about integrating external assets and connecting our sketches to other files.  We also looked at changing the fonts that appear as well as added motion to our shapes. 
 
 ## Next Week
 
-This week, we began to dig into the details of JavaScript. The homework should test your ability to assimilate this information with fundamental problem-solving skills. Next week we will continue to examine the details and workings of JavaScript as we look at variables, control statements, and looping structures. 
+We plan to talk about classes, objects and arrays.  Hold on to your hats! It's going to be fun.
