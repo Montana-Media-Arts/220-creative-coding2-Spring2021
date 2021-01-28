@@ -31,25 +31,24 @@ So, how are we going to work with them.  Let's start with a simple example of di
 So, let's create a simple shape class.
 
 ```js
-
-    class myCircle
+class myCircle
+{
+    constructor(x,y, diameter, redColor, greenColor, blueColor)
     {
-        constructor(x,y, diameter, redColor, greenColor, blueColor)
-        {
-            this.x = x;
-            this.y = y;
-            this.diamter = diameter;
-            this.redColor = redColor;
-            this.greenColor = greenColor;
-            this.blueColor = blueColor;
-        }
-
-        draw()
-        {
-            fill(this.redColor, this.greenColor, this.blueColor);
-            circle(this.x,this.y,this.diameter);
-        }
+        this.x = x;
+        this.y = y;
+        this.diameter = diameter;
+        this.redColor = redColor;
+        this.greenColor = greenColor;
+        this.blueColor = blueColor;
     }
+
+    draw()
+    {
+        fill(this.redColor, this.greenColor, this.blueColor);
+        circle(this.x,this.y,this.diameter);
+    }
+}
 
 ```
 </div>
@@ -66,7 +65,7 @@ class myCircle
     {
         this.x = x;
         this.y = y;
-        this.diamter = diameter;
+        this.diameter = diameter;
         this.redColor = redColor;
         this.greenColor = greenColor;
         this.blueColor = blueColor;
@@ -78,7 +77,7 @@ class myCircle
         circle(this.x,this.y,this.diameter);
     }
 }
-var circle1 = new Circle(100,100,25, 120, 34,100);
+var circle1 = new myCircle(100,100,25, 120, 34,100);
 
 function setup()
 {
@@ -109,7 +108,7 @@ class myCircle
     {
         this.x = x;
         this.y = y;
-        this.diamter = diameter;
+        this.diameter = diameter;
         this.redColor = redColor;
         this.greenColor = greenColor;
         this.blueColor = blueColor;
@@ -121,8 +120,8 @@ class myCircle
         circle(this.x,this.y,this.diameter);
     }
 }
-var circle1 = new Circle(100,100,25, 120, 34,100);
-var circle2 = new Circle(200,200,125, 220, 134,10);
+var circle1 = new myCircle(100,100,25, 120, 34,100);
+var circle2 = new myCircle(200,200,125, 220, 134,10);
 function setup()
 {
     createCanvas(800,600);
@@ -153,7 +152,7 @@ class myCircle
     {
         this.x = x;
         this.y = y;
-        this.diamter = diameter;
+        this.diameter = diameter;
         this.redColor = redColor;
         this.greenColor = greenColor;
         this.blueColor = blueColor;
@@ -166,8 +165,8 @@ class myCircle
     }
 }
 var myCircles = []; // declare a circle array
-myCircles[0] = circle1 = new Circle(100,100,25, 120, 34,100); // add a circle to index 0
-myCircles[1] = circle2 = new Circle(200,200,125, 220, 134,10); // add a circle to index 1
+myCircles[0] = circle1 = new myCircle(100,100,25, 120, 34,100); // add a circle to index 0
+myCircles[1] = circle2 = new myCircle(200,200,125, 220, 134,10); // add a circle to index 1
 function setup()
 {
     createCanvas(800,600);
@@ -198,7 +197,7 @@ class myCircle
     {
         this.x = x;
         this.y = y;
-        this.diamter = diameter;
+        this.diameter = diameter;
         this.redColor = redColor;
         this.greenColor = greenColor;
         this.blueColor = blueColor;
@@ -211,8 +210,8 @@ class myCircle
     }
 }
 var myCircles = []; // declare a circle array
-myCircles[0] = circle1 = new Circle(100,100,25, 120, 34,100); // add a circle to index 0
-myCircles[1] = circle2 = new Circle(200,200,125, 220, 134,10); // add a circle to index 1
+myCircles[0] = circle1 = new myCircle(100,100,25, 120, 34,100); // add a circle to index 0
+myCircles[1] = circle2 = new myCircle(200,200,125, 220, 134,10); // add a circle to index 1
 function setup()
 {
     createCanvas(800,600);
@@ -247,7 +246,7 @@ class myCircle
     {
         this.x = x;
         this.y = y;
-        this.diamter = diameter;
+        this.diameter = diameter;
         this.redColor = redColor;
         this.greenColor = greenColor;
         this.blueColor = blueColor;
@@ -266,7 +265,7 @@ function setup()
     createCanvas(800,600);
     for(var i = 0; i < 5; i++)
     {
-        myCircles[i] = new Circle(random(10,100),random(10,200),random(5,25), random(255), random(255),random(255)); //
+        myCircles[i] = new myCircle(random(10,100),random(10,200),random(5,25), random(255), random(255),random(255)); //
     }
 }
 
