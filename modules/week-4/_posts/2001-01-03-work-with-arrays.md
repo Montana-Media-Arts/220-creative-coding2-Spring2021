@@ -44,7 +44,7 @@ So, let's create a simple shape class.
             this.blueColor = blueColor;
         }
 
-        function draw()
+        draw()
         {
             fill(this.redColor, this.greenColor, this.blueColor);
             circle(this.x,this.y,this.diameter);
@@ -72,7 +72,7 @@ class myCircle
         this.blueColor = blueColor;
     }
 
-    function draw()
+    draw()
     {
         fill(this.redColor, this.greenColor, this.blueColor);
         circle(this.x,this.y,this.diameter);
@@ -115,7 +115,7 @@ class myCircle
         this.blueColor = blueColor;
     }
 
-    function draw()
+    draw()
     {
         fill(this.redColor, this.greenColor, this.blueColor);
         circle(this.x,this.y,this.diameter);
@@ -159,7 +159,7 @@ class myCircle
         this.blueColor = blueColor;
     }
 
-    function draw()
+    draw()
     {
         fill(this.redColor, this.greenColor, this.blueColor);
         circle(this.x,this.y,this.diameter);
@@ -204,7 +204,7 @@ class myCircle
         this.blueColor = blueColor;
     }
 
-    function draw()
+    draw()
     {
         fill(this.redColor, this.greenColor, this.blueColor);
         circle(this.x,this.y,this.diameter);
@@ -253,7 +253,7 @@ class myCircle
         this.blueColor = blueColor;
     }
 
-    function draw()
+    draw()
     {
         fill(this.redColor, this.greenColor, this.blueColor);
         circle(this.x,this.y,this.diameter);
