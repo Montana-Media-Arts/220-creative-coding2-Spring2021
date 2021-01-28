@@ -46,8 +46,8 @@ So, let's create a simple shape class.
 
         function draw()
         {
-            fill(redColor, greenColor, blueColor);
-            circle(x,y,diameter);
+            fill(this.redColor, this.greenColor, this.blueColor);
+            circle(this.x,this.y,this.diameter);
         }
     }
 
@@ -60,6 +60,24 @@ So, let's create a simple shape class.
 Let's test this out and see if it works.
 
 ```js
+class myCircle
+{
+    constructor(x,y, diameter, redColor, greenColor, blueColor)
+    {
+        this.x = x;
+        this.y = y;
+        this.diamter = diameter;
+        this.redColor = redColor;
+        this.greenColor = greenColor;
+        this.blueColor = blueColor;
+    }
+
+    function draw()
+    {
+        fill(this.redColor, this.greenColor, this.blueColor);
+        circle(this.x,this.y,this.diameter);
+    }
+}
 var circle1 = new Circle(100,100,25, 120, 34,100);
 
 function setup()
@@ -85,6 +103,24 @@ Did it work?  Great!
 Now, let's create a couple of circles and make sure it works.
 
 ```js
+class myCircle
+{
+    constructor(x,y, diameter, redColor, greenColor, blueColor)
+    {
+        this.x = x;
+        this.y = y;
+        this.diamter = diameter;
+        this.redColor = redColor;
+        this.greenColor = greenColor;
+        this.blueColor = blueColor;
+    }
+
+    function draw()
+    {
+        fill(this.redColor, this.greenColor, this.blueColor);
+        circle(this.x,this.y,this.diameter);
+    }
+}
 var circle1 = new Circle(100,100,25, 120, 34,100);
 var circle2 = new Circle(200,200,125, 220, 134,10);
 function setup()
@@ -111,6 +147,24 @@ I could continue doing this, but what if I wanted to use an array?
 <div class="tabhtml" markdown="1">
 
 ```js
+class myCircle
+{
+    constructor(x,y, diameter, redColor, greenColor, blueColor)
+    {
+        this.x = x;
+        this.y = y;
+        this.diamter = diameter;
+        this.redColor = redColor;
+        this.greenColor = greenColor;
+        this.blueColor = blueColor;
+    }
+
+    function draw()
+    {
+        fill(this.redColor, this.greenColor, this.blueColor);
+        circle(this.x,this.y,this.diameter);
+    }
+}
 var myCircles = []; // declare a circle array
 myCircles[0] = circle1 = new Circle(100,100,25, 120, 34,100); // add a circle to index 0
 myCircles[1] = circle2 = new Circle(200,200,125, 220, 134,10); // add a circle to index 1
@@ -138,6 +192,24 @@ Now, this is all fine, but where does the power of arrays come in?  It almost se
 Let's try this:
 
 ```js
+class myCircle
+{
+    constructor(x,y, diameter, redColor, greenColor, blueColor)
+    {
+        this.x = x;
+        this.y = y;
+        this.diamter = diameter;
+        this.redColor = redColor;
+        this.greenColor = greenColor;
+        this.blueColor = blueColor;
+    }
+
+    function draw()
+    {
+        fill(this.redColor, this.greenColor, this.blueColor);
+        circle(this.x,this.y,this.diameter);
+    }
+}
 var myCircles = []; // declare a circle array
 myCircles[0] = circle1 = new Circle(100,100,25, 120, 34,100); // add a circle to index 0
 myCircles[1] = circle2 = new Circle(200,200,125, 220, 134,10); // add a circle to index 1
@@ -169,6 +241,24 @@ Can we do more?  Of course we can.
 
 
 ```js
+class myCircle
+{
+    constructor(x,y, diameter, redColor, greenColor, blueColor)
+    {
+        this.x = x;
+        this.y = y;
+        this.diamter = diameter;
+        this.redColor = redColor;
+        this.greenColor = greenColor;
+        this.blueColor = blueColor;
+    }
+
+    function draw()
+    {
+        fill(this.redColor, this.greenColor, this.blueColor);
+        circle(this.x,this.y,this.diameter);
+    }
+}
 var myCircles = []; // declare a circle array
 
 function setup()
