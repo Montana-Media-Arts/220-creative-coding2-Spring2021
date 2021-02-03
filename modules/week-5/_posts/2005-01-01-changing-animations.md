@@ -120,7 +120,7 @@ The nice thing about p5.js is that we can use two lines of code that will help u
 
 #### translate
 
-The first one is translate.  This will move the character or image to a different part of the screen.
+The first one is translate.  This will move the character or image to a different part of the screen.  However, keep in mind that it will require you to keep track of where you are on the screen at all times.  This is a simple example below.
 
 ```js
 translate(width,0); // move to far corner
@@ -179,6 +179,8 @@ function draw()
 ```
 
 So, we can see in this example that we can flip a single image by just moving it over to the right by its width and then translating it.
+
+However, for our assignment, you can just flip your images and create another animation that moves the opposite way.  
 
 </div>
 </div>
