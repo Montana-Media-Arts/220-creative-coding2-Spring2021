@@ -94,7 +94,10 @@ function draw()
 {
     background(0);
     for(var i = 0; i < myCircles.length; i++)
-    myCircles[i].draw();
+    {
+        myCircles[i].draw();
+    }
+    
 }
 
 ```
