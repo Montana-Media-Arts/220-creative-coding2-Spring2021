@@ -51,8 +51,10 @@ And then we used the class by doing this.
 
 ```js
 var myCircles = []; // declare a circle array
-myCircles[0] = circle1 = new myCircle(100,100,25, 120, 34,100); // add a circle to index 0
-myCircles[1] = circle2 = new myCircle(200,200,125, 220, 134,10); // add a circle to index 1
+myCircles[0] = new myCircle(100,100,25, 120, 34,100); // add a circle to index 0
+var circle2 = new myCircle(200,200,125, 220, 134,10); // add a circle to index 1
+
+myCircles[1] = circle2;
 
 function setup()
 {
