@@ -6,4 +6,4 @@ jotted: false
 
 # Conclusions
 
-Even though we didn't quite get to JQuery, I think we covered more than enough with classes and objects.  OOP will help us moving forward as we create instances of other classes that maybe someone else has built.  Next week, JQuery, for sure!)
+Okay so that concludes this section on arrays, animations and particle systems.  Next up, we are going to shift our focus to 3D in p5.js.  There are some really fun and interesting things we can do here.  See you next week!
