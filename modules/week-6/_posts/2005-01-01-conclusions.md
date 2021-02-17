@@ -6,4 +6,4 @@ jotted: false
 
 # Conclusions
 
-This week we reviewed and added a little bit more to our array toolkit.  We then talked about classes, objects and JSON.  Then, we finished by discussing how local storage fit into all of this.  Next week, we will discuss classes and objects in even more detail and start talking about JQuery.
+This week we worked with the p5.play library which allowed us to create our animations in a new way and **hopefully** and easier way.  For sure, our collision is easier and next week, we will integrate particle systems into our project.
