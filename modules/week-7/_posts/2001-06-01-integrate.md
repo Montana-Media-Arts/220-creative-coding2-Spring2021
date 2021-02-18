@@ -6,6 +6,15 @@ jotted: false
 
 # Integrate Particle System
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'change')">change</button>
+  <button class="tablinks" onclick="openTab(event, 'call')">call</button>
+</div>
+
+<div id="Overview" class="tabcontent" style="display:block"  >
+<div class="tabhtml" markdown="1">
+
 First, we need change the Particle class so that it accepts parameters so that the particles appear wherever the attack happens.
 
 The Particle class will look like this now.
@@ -50,6 +59,12 @@ class Particle {
 
 We only had to make a small change to the Particle class.
 
+</div>
+</div>
+
+<div id="change" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 Next, we want to move all the code from the draw into a function that also accepts an x and a y that will be passed into the Particles class. Now, we can just call the method whenever there is a collision.
 
 ```js
@@ -71,6 +86,12 @@ for (let i = 0; i < 5; i++) {
 
 ```
 
+</div>
+</div>
+
+<div id="call" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 Finally, we can call this function in our collision section.
 
 ```js
@@ -91,4 +112,7 @@ else if(keyDown('x'))
 ```
 
 Did it work?  No? Dang!  What do we need to change?
+
+</div>
+</div>
 

@@ -5,6 +5,14 @@ jotted: false
 ---
 
 # Review
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'destroy')">destroy</button>
+  <button class="tablinks" onclick="openTab(event, 'remove')">remove</button>
+</div>
+
+<div id="Overview" class="tabcontent" style="display:block"  >
+<div class="tabhtml" markdown="1">
 
 At this point, your code displays an animation and randomized immovable objects. The character should be unable to move through the objects.
 
@@ -77,6 +85,12 @@ function draw()
 
 At the moment, I can move the character to the left and right and attack. It also places an object on the screen. However, how do we destroy the object when it is attacked?  Eventually we are going to integrate the particle system, but for now, let's just remove it.
 
+</div>
+</div>
+
+<div id="destroy" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 ### Destroy
 
 The code that is most important is the attack.
@@ -108,6 +122,13 @@ So, the code will look like this now.
 The `dist` function needs two points the first point (x,y) will be the location of the character.  The second point (x,y) will be the obstacle.  I am checking to see if it's less than 250 pixels away. If it is, then destroy it.  This may vary for you.
 
 At the moment, I am just printing out **destroy**.  Not very intimating.  How do I remove it?
+
+</div>
+</div>
+
+<div id="remove" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
 
 #### remove
 
@@ -187,3 +208,7 @@ function draw()
 ```
 
 Pretty cool right?  How do we integrate our particle system?
+
+</div>
+</div>
+
