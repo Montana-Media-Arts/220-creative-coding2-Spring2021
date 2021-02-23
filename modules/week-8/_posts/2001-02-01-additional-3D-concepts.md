@@ -1,10 +1,10 @@
 ---
-title: 3D Shapes
+title: Additional 3D Concepts
 module: 8
 jotted: false
 ---
 
-# 3D shapes
+# Additional 3D Concepts
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
