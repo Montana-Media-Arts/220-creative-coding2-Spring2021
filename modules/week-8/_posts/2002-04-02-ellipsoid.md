@@ -19,7 +19,7 @@ jotted: false
 
 ```js
 // draw an ellipsoid
-// with radius 30, 40 and 40.
+// with size 30, 40 and 40.
 function setup() {
   createCanvas(100, 100, WEBGL);
 }
@@ -58,8 +58,8 @@ ellipsoid([radiusx], [radiusy], [radiusz], [detailX], [detailY])
 
 ```js
 
-// draw a cylinder
-// with radius 50 and height 100, draw the top cap, but not the bottom cap
+// draw a ellipsoid
+// with size 50, 150 and 74.
 function setup() {
   createCanvas(600, 800, WEBGL);
 }
