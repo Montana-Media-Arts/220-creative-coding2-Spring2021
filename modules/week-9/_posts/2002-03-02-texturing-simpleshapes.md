@@ -1,11 +1,11 @@
 ---
-title: cylinder
-module: 8
+title: texture simple shapes
+module: 9
 jotted: false
 ---
 
 
-# cylinder
+# texture simple shapes
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
@@ -40,53 +40,75 @@ function draw() {
 }
 ```
 
-#### Description
-
-Draw a cylinder with given radius and height
-
-DetailX and detailY determines the number of subdivisions in the x-dimension and the y-dimension of a cylinder. More subdivisions make the cylinder seem smoother. The recommended maximum value for detailX is 24. Using a value greater than 24 may cause a warning or slow down the browser.
-
-#### Syntax
-
-cylinder([radius], [height], [detailX], [detailY], [bottomCap], [topCap])
-
-#### Parameters
-
-* radius Number: radius of the surface (Optional)
-* height Number: height of the cylinder (Optional)
-* detailX Integer: number of subdivisions in x-dimension; default is 24 (Optional)
-* detailY Integer: number of subdivisions in y-dimension; default is 1 (Optional)
-* bottomCap Boolean: whether to draw the bottom of the cylinder (Optional)
-* topCap Boolean: whether to draw the top of the cylinder (Optional)
-
-</div>
-</div>
-
-<div id="example" class="tabcontent" style="display:block"  >
-<div class="tabhtml" markdown="1">
-
-### Example
-
 ```js
 
-// draw a cylinder
-// with radius 50 and height 100, draw the top cap, but not the bottom cap
+let img;
+function preload() {
+  img = loadImage('assets/dog.jpg');
+}
+
 function setup() {
-  createCanvas(600, 800, WEBGL);
+  createCanvas(100, 100, WEBGL);
 }
 
 function draw() {
-    background(200);
-    normalMaterial();
-    translate(-100,-100);
-    rotateX(frameCount * 0.01);
-    rotateY(frameCount * 0.01);
-    cylinder(50, 150, 24, 24, false, true);
+  background(0);
+  rotateZ(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  //pass image as texture
+  texture(img);
+  cone(40, 70);
+}
+```
+
+```js
+
+let img;
+function preload() {
+  img = loadImage('assets/dog.jpg');
+}
+
+function setup() {
+  createCanvas(100, 100, WEBGL);
+}
+
+function draw() {
+  background(0);
+  rotateZ(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  //pass image as texture
+  texture(img);
+   ellipsoid(30, 40, 40);
+}
+```
+
+```js
+
+let img;
+function preload() {
+  img = loadImage('assets/dog.jpg');
+}
+
+function setup() {
+  createCanvas(100, 100, WEBGL);
+}
+
+function draw() {
+  background(0);
+  rotateZ(frameCount * 0.01);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  //pass image as texture
+  texture(img);
+  torus(30, 15);
 }
 ```
 
 </div>
 </div>
+
 
 <div id="todo" class="tabcontent">
 <div class="tabhtml" markdown="1">
