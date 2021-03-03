@@ -9,7 +9,7 @@ jotted: false
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-  <button class="tablinks" onclick="openTab(event, 'example')">Example</button>  
+ 
   <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>  
 </div>
 
@@ -18,6 +18,8 @@ jotted: false
 
 ### Overview
 
+#### Cylinder
+
 ```js
 
 let img;
@@ -26,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(100, 100, WEBGL);
+  createCanvas(500, 500, WEBGL);
 }
 
 function draw() {
@@ -34,12 +36,15 @@ function draw() {
   rotateZ(frameCount * 0.01);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
+  normalMaterial();
   //pass image as texture
   texture(img);
   cylinder(20, 50);
 }
 ```
 
+#### Cone
+
 ```js
 
 let img;
@@ -48,7 +53,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(100, 100, WEBGL);
+  createCanvas(500, 500, WEBGL);
 }
 
 function draw() {
@@ -56,12 +61,15 @@ function draw() {
   rotateZ(frameCount * 0.01);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
+  normalMaterial();
   //pass image as texture
   texture(img);
   cone(40, 70);
 }
 ```
 
+#### Ellipsoid
+
 ```js
 
 let img;
@@ -70,7 +78,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(100, 100, WEBGL);
+   createCanvas(500, 500, WEBGL);
 }
 
 function draw() {
@@ -78,12 +86,15 @@ function draw() {
   rotateZ(frameCount * 0.01);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
+  normalMaterial();
   //pass image as texture
   texture(img);
-   ellipsoid(30, 40, 40);
+  ellipsoid(30, 40, 40);
 }
 ```
 
+#### Torus
+
 ```js
 
 let img;
@@ -92,7 +103,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(100, 100, WEBGL);
+  createCanvas(500, 500, WEBGL);
 }
 
 function draw() {
@@ -100,6 +111,7 @@ function draw() {
   rotateZ(frameCount * 0.01);
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
+  normalMaterial();
   //pass image as texture
   texture(img);
   torus(30, 15);
@@ -114,6 +126,6 @@ function draw() {
 <div class="tabhtml" markdown="1">
 Try the code in the earlier tab to see the final result. Feel free to change values. 
 
-<iframe src="https://editor.p5js.org/michaelcassens/sketches/4SYHBeKHm" width="100%" height="800px"></iframe>
+<iframe src="https://editor.p5js.org/michaelcassens/sketches/_6bJYaDgj" width="100%" height="800px"></iframe>
 </div>
 </div>

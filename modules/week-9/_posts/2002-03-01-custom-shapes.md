@@ -8,6 +8,7 @@ jotted: false
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'vertex')">Vertex</button>  
   <button class="tablinks" onclick="openTab(event, 'example')">Example</button>  
   <button class="tablinks" onclick="openTab(event, 'todo')">To Do</button>  
 </div>
@@ -50,14 +51,17 @@ beginShape([kind])
 <div id="vertex" class="tabcontent" style="display:block"  >
 <div class="tabhtml" markdown="1">
 
-Description
+#### Description
+
 All shapes are constructed by connecting a series of vertices. vertex() is used to specify the vertex coordinates for points, lines, triangles, quads, and polygons. It is used exclusively within the beginShape() and endShape() functions.
 
-Syntax
+#### Syntax
+
 vertex(x, y)
 vertex(x, y, z, [u], [v])
 
-Parameters
+#### Parameters
+
 x Number: x-coordinate of the vertex
 y Number: y-coordinate of the vertex
 z Number: z-coordinate of the vertex
@@ -69,6 +73,7 @@ v Number: vertical coordinate for the texture mapping (Optional)
 
 <div id="example" class="tabcontent" style="display:block"  >
 <div class="tabhtml" markdown="1">
+
 ### Example
 
 ```js
@@ -80,13 +85,15 @@ function preload()
 // draw a sphere
 // with radius 150
 function setup() {
-  createCanvas(600, 800, WEBGL);
+  createCanvas(800, 600, WEBGL);
+   // need this to make the custom shape appear
+  image(dog,0,0);
 }
 
 function draw() {
   background(200);
-  image(dog);
-
+ 
+  
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   
@@ -109,6 +116,6 @@ function draw() {
 <div class="tabhtml" markdown="1">
 Try the code in the earlier tab to see the final result. Feel free to change values. 
 
-<iframe src="https://editor.p5js.org/michaelcassens/sketches/lre8pVOKm" width="100%" height="800px"></iframe>
+<iframe src="https://editor.p5js.org/michaelcassens/sketches/_6bJYaDgj" width="100%" height="800px"></iframe>
 </div>
 </div>
