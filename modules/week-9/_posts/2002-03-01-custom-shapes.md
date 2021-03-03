@@ -57,16 +57,16 @@ All shapes are constructed by connecting a series of vertices. vertex() is used 
 
 #### Syntax
 
-- vertex(x, y)
-- vertex(x, y, z, [u], [v])
+* vertex(x, y)
+* vertex(x, y, z, [u], [v])
 
 #### Parameters
 
-- x Number: x-coordinate of the vertex
-- y Number: y-coordinate of the vertex
-- z Number: z-coordinate of the vertex
-- u Number: horizontal coordinate for the texture mapping (Optional)
-- v Number: vertical coordinate for the texture mapping (Optional)
+* x Number: x-coordinate of the vertex
+* y Number: y-coordinate of the vertex
+* z Number: z-coordinate of the vertex
+* u Number: horizontal coordinate for the texture mapping (Optional)
+* v Number: vertical coordinate for the texture mapping (Optional)
 
 </div>
 </div>
