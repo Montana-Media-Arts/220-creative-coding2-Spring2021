@@ -48,7 +48,7 @@ beginShape([kind])
 </div>
 </div>
 
-<div id="vertex" class="tabcontent" style="display:block"  >
+<div id="vertex" class="tabcontent"  >
 <div class="tabhtml" markdown="1">
 
 #### Description
@@ -71,7 +71,7 @@ v Number: vertical coordinate for the texture mapping (Optional)
 </div>
 </div>
 
-<div id="example" class="tabcontent" style="display:block"  >
+<div id="example" class="tabcontent"  >
 <div class="tabhtml" markdown="1">
 
 ### Example
