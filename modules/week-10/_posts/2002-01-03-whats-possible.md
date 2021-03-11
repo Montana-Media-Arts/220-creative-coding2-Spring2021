@@ -1,12 +1,10 @@
 ---
 title: What's possible and Edit
-module: 13
+module: 10
 jotted: true
 ---
 
 # What's Possible
-
-<a href="https://umontana.zoom.us/rec/play/tJUtIuH8-243HoGd4wSDAPR-W429L6ys1XQZqKENn062WnAFNlSvYLUaMefHo1e-jcSrOMcZLPh08yML?continueMode=true">Video</a>
 
 Experimentation is key here.  I hope you realize that you have several different options on your phone to make an exciting and compelling video.  You don't always have to spend a lot of money on high tech gear to make some fun.  So, try different things out, including filters, angles, lighting, and sounds, to create just the right story.
 

@@ -1,12 +1,10 @@
 ---
 title: Composition
-module: 13
+module: 10
 jotted: true
 ---
 
 # Use Classic Composition
-
-<a href="https://umontana.zoom.us/rec/play/6JB4cLqp_D43TIWTuASDA_d_W429KqqshicbqfoKyE-3WyQFNlKnZLAQZeVxEh3n1Xq1cFIZ16foDU0R?autoplay=true&startTime=1585680802000">Video</a>
 
 You want to think about the rule of thirds.  [Digital Photography School](https://digital-photography-school.com/rule-of-thirds/) describes the Rule of Thirds below. 
 
