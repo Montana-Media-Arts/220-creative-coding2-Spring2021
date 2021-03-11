@@ -1,14 +1,8 @@
 ---
-title: Weekly Conclusions
-module: 8
-jotted: false
+title: Week 13 Conclusions
+module: 13
 ---
 
-# Weekly Conclusions
+# Conclusions
 
-This week you started to see how you can use and learn about external JS libraries in particular we looked at JQuery. As you continue working as a developer you will find many instances where you want to use code written by someone else in order to save yourself time or to do something that you may not otherwise know how to do. This is part of the art of coding and something you will get more comfortable with.
-
-
-## Next Week
-
-Next week, we will look at how we can pull in data from external sites or databases and how we can use this data to update our web pages.  We will look at how JQuery allows us to use AJAX to accomplish our goals. 
+You are doing a great job, and I hope you found the video tour fun and something different.  Next week we are onto Augmented Reality, also known as AR.
