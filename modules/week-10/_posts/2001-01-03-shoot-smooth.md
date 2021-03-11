@@ -12,7 +12,7 @@ Below is a video where things have gone a little wrong.
 
 <!-- shaky video-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZNYZkYge5aA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZNYZkYge5aA" frameborder="0" allowfullscreen></iframe></div>
 
 Now, how can we fix this? We can keep our elbows in close to our body or set the camera on a fixed surface to keep things more stable.
 
