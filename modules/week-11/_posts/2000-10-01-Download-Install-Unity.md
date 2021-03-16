@@ -6,11 +6,11 @@ jotted: true
 
 # Download Unity
 
-<a href="https://umontana.zoom.us/rec/play/75V8cuir_TM3T9fBtwSDUPVwW47uLP-shHUXq_MEn07nWnkLZlKhMLFBMeVadknUff_r1SUY0Tfl2XBh?continueMode=true" target="_new">Video</a>
+
 
 Unity uses centralized software called the Unity Hub, allowing users to install different versions of Unity on the same machine.  The Unity Hub allows you to support today's projects from today as well as ones in the future or even previous projects.
 
-1. First go to Unity [Unity](https://unity.com/)
+1. First go to Unity <a href="https://unity.com/" target="_new">Unity</a>
 2. Next, Click on **Games**
 3. Click on **Get Started**.
 4. Click the **Individual Tab**.
@@ -38,4 +38,4 @@ Wait for the install and then click on Projects.
 3. In the **Project Name**, enter **Playground Fun** (or whatever you want)
 4. Click **Create**.
 
-<a href="https://umontana.zoom.us/rec/play/uJN5dbuu_zk3GNOVsgSDA6QrW47rLP-s0nMaqfBfxU-1BnIBZFSgY-dGZeoph6bYpNoETxfe4Ww2SqYX?continueMode=true" target="_new">Video</a>
+

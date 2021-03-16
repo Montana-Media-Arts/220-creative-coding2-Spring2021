@@ -32,4 +32,3 @@ Do the same thing.
 
 Now, run the project and see if you can make the ship collide with the obstacle.
 
-<a href="https://umontana.zoom.us/rec/play/uJV4fruhrzg3EtKS5QSDA6N5W9S-Kams1iAYqfIPn0u8WnIKOwWgZ7FBauPuiN_fc5c1idvbnjyPieNu?continueMode=true" target="_new">Video</a>
