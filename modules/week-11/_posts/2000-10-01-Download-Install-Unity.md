@@ -14,9 +14,10 @@ Unity uses centralized software called the Unity Hub, allowing users to install 
 2. Next, Click on **Games**
 3. Click on **Get Started**.
 4. Click the **Individual Tab**.
-5. Click the **Student** or **Individual Sign up** button.
-6. If you choose **Individual**, click **Start Here**.
-7. Click **Agree and Download**.
+5. Click the **Student** or **Personal** button.
+6. If you choose **Personal**, click **Get Started**.
+7. Click **Start here** if you have never used Unity or **Go here** for returning users.
+7. Click **Agree terms** and click **Download Unity Hub**.
 8. After the download is complete, install **Unity Hub**.
 
 

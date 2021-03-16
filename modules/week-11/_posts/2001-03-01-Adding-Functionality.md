@@ -17,7 +17,7 @@ To move, the ship requires two things.
 
 RigidBody2D is vital to any object because it applies physics properties like gravity and mass.
 
-1. In the **hierarchy**, select the ship.
+1. In the **Hierarchy**, select the ship.
 2. In the **Inspector**, click **Add Component**.
 3. In the dropdown, look for **Physics 2D** and click **RigidBody2D**
 4. Once the **RigidyBody2D** component is added, run the program.  What happens?

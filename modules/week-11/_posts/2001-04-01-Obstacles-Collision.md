@@ -12,7 +12,7 @@ You know how to add objects to the scene now.  Go ahead and add something new to
 
 After you add the new object, add the RigidBody2D.  Leave the gravity on this time, though.
 
-Press run, the object should fall through the floor.  Feel free to change the Gravity Scale, so it doesn't fall so fast.
+Press **run**, the object should fall through the floor.  Feel free to change the Gravity Scale, so it doesn't fall so fast.
 
 Run the project one more time, moving the ship toward the obstacle.  When you hit the obstacle, does it go right through?
 
