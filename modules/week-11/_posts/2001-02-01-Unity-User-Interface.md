@@ -8,8 +8,7 @@ jotted: false
 
 ## Heirarchy
 
-The first window is the hierarchy tab.  This window is where any added components to the scene appear.
-
+The first window is the Hierarchy section.  This window is where any added components to the scene appear.
 
 
 ## Project
@@ -27,7 +26,6 @@ In the Scene window, this is like the design window.  It allows you to arrange i
 ## Add an item to the scene
 
 Let's add something to the scene.  Go into the Project section, and expand the Images folder.  Look for Spaceships and click on it.  Please select one of the Spaceships (Blue or Red) and drag it into the Scene.  You will see it in the Scene as well as in the Hierarchy.
-
 
 
 ## Does it run?
