@@ -18,7 +18,6 @@ Unity uses centralized software called the Unity Hub, allowing users to install 
 7. Click **Agree terms** and click **Download Unity Hub**.
 8. After the download is complete, install **Unity Hub**.
 
-
 # Install Unity
 
 Once you have the Unity Hub, you can install different versions of Unity.  I recommend the latest one.
