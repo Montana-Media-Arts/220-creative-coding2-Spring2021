@@ -12,7 +12,7 @@ First, go to the following link.
 
 * <a href="https://www.tinkercad.com/dashboard?type=codeblocks&collection=designs" target="_new">TinkerCad Code Blocks</a>
 
-Then, click on Create New Code Block.  When the dialog box appears, click on **Intro to Shapes** activities.
+Then, click on **Create New Code Block**.  When the dialog box appears, click on **Intro to Shapes** activities.
 
 Go through the activity so that you know how to code blocks add 3D shapes.
 

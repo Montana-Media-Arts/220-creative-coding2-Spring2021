@@ -18,9 +18,9 @@ What is the difference? Might you ask?
 
 For more details, follow this link. <a href="https://all3dp.com/1/obj-file-format-3d-printing-cad/" target="_new">obj explained</a>
 
-* .stl - conversely as per <a href="https://3dprintingforbeginners.com/stl-and-obj-files-101/" target="_new">3dprintingforbeginners</a> states stl as follows. <em>.STL format is one of the most commonly used file formats for 3D printing. It is because most CAD software has the feature of exporting models in the .stl form, and most 3D printers support it. The file generates the surface geometry of the modeled object only.</em>
+* .stl - conversely as per <a href="https://www.sculpteo.com/en/3d-learning-hub/create-3d-file/what-is-an-stl-file/" target="_new">sculpteo.com</a> states stl as follows. <em>The most common explanation is to say that it is the abbreviation of the word Stereolithography, given by 3D Systems. But others will tell that it is actually referring to Standard Triangle Language or even Standard Tessellation Language. No one really knows, but the most important thing is not the origin of the name STL, it is what it does.
 
-They talk about obj here too.
+An STL file stores information about your 3D model.</em>
 
 * .glb - although not really well known, <a href="https://en.wikipedia.org/wiki/GlTF#GLB" target="_new">Wikipedia</a> (I know. Sorry about that.), describes it like this. <em>GLB file format is a binary form of glTF that includes textures instead of referencing them as external images. The .glb files are required in Facebook 3D Posts.</em>
 
