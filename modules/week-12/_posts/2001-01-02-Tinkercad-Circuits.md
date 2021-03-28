@@ -6,8 +6,6 @@ jotted: true
 
 # Circuits
 
-<a href="" target="_new">Video</a>
-
 The first section we are going to cover is circuits.  I know they were pesky things and finicky.  Let's see how it works in a simulation instead.
 
 Go to the following link.
