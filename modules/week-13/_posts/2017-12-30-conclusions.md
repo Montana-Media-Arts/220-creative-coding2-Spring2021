@@ -5,4 +5,4 @@ module: 13
 
 # Conclusions
 
-You are doing a great job, and I hope you found the video tour fun and something different.  Next week we are onto Augmented Reality, also known as AR.
+So, this is just a primer on Augmented Reality. Pokemon Go really brought this technology into the forefront and I wonder how it will progress over time.
