@@ -1,10 +1,10 @@
 ---
-title: Create an NFT
+title: Create an Image
 module: 14
 jotted: true
 ---
 
-# What an we do?
+# Create an Image
 
 Using p5, we can create an NFT using the p5.Image and createImage function.
 
@@ -116,4 +116,4 @@ Finally, ...
 
 Now, alter the example from above.
 
-<iframe src="https://editor.p5js.org/michaelcassens/sketches/XRIRdoPyM" width="100%" height="800px"></iframe>
+<iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
