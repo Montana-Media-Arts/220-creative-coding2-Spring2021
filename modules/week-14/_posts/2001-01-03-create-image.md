@@ -151,7 +151,7 @@ Then, the **drawShapes** function displays various shapes randomly throughout th
 
 </div>
 </div>
-<div id="callwritecolor" class="tabcontent">
+<div id="callcreatecolor" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
 This is the section where the random colored pixels are generated. Keep in mind the **writeColor** function is called and the location and the color of each pixel is depicted.
