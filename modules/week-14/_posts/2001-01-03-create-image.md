@@ -102,13 +102,15 @@ function setup() {
 }
 ```
 
+There's a lot to unpack here.  How does it work?
+
 </div>
 </div>
 <div id="createcolor" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
 
-There's a lot to unpack here.  How does it work?  First, we use the **createImage** function to create a functional image that we can add the colors and the alpha value to each individual pixel.
+First, we use the **createImage** function to create a functional image that we can add the colors and the alpha value to each individual pixel.
 
 ```js
 // helper for writing color to array
