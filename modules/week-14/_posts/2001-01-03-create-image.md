@@ -110,7 +110,7 @@ There's a lot to unpack here.  How does it work?
 <div class="tabhtml" markdown="1">
 
 
-First, we use the **createImage** function to create a functional image that we can add the colors and the alpha value to each individual pixel.
+First, we use the **writeColor** function to create a functional image that we can add the colors and the alpha value to each individual pixel.
 
 ```js
 // helper for writing color to array
