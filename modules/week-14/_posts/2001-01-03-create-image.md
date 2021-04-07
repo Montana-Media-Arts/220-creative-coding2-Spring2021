@@ -72,7 +72,6 @@ function setup() {
   }
 
   // draw upper border line
-  //y = 0;
   for(y = 0; y < 5; y++)
   {
     for (x = 0; x < img.width; x++) 
@@ -179,7 +178,6 @@ Here we draw the upper and lower borders.  Examine this closely as it creates an
 
 ```js
  // draw upper border line
-  //y = 0;
   for(y = 0; y < 5; y++)
   {
     for (x = 0; x < img.width; x++) 
