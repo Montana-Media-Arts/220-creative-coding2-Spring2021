@@ -154,7 +154,7 @@ Then, the **drawShapes** function displays various shapes randomly throughout th
 <div id="callcreatecolor" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
-This is the section where the random colored pixels are generated. Keep in mind the **writeColor** function is called and the location and the color of each pixel is depicted.
+In this section, randomly colored pixels are generated and sent to the writeColor function. Keep in mind the **writeColor** function is called and the location, the color, and alpha value of each pixel is sent in.
 
 ```js
 let x, y;
