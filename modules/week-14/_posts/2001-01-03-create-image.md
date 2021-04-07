@@ -10,7 +10,7 @@ jotted: true
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'createcolor')">createColor</button>
   <button class="tablinks" onclick="openTab(event, 'drawshapes')">drawShapes</button>
-  <button class="tablinks" onclick="openTab(event, 'callcreatecolor')">Call createColor</button>
+  <button class="tablinks" onclick="openTab(event, 'callcreatecolor')">Call writeColor</button>
   <button class="tablinks" onclick="openTab(event, 'borders')">Borders</button>
   <button class="tablinks" onclick="openTab(event, 'calldrawshapes')">Call drawShapes</button>
   <button class="tablinks" onclick="openTab(event, 'update')">Update</button>
