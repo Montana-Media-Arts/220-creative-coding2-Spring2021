@@ -8,7 +8,7 @@ jotted: true
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-  <button class="tablinks" onclick="openTab(event, 'createcolor')">createColor</button>
+  <button class="tablinks" onclick="openTab(event, 'createcolor')">writeColor</button>
   <button class="tablinks" onclick="openTab(event, 'drawshapes')">drawShapes</button>
   <button class="tablinks" onclick="openTab(event, 'callcreatecolor')">Call writeColor</button>
   <button class="tablinks" onclick="openTab(event, 'borders')">Borders</button>
